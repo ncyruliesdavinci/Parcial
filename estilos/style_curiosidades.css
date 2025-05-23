@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_titulo>h1{
+    justify-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #d90d1ed8;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.contenedor_eventos{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #BFB304;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.contenedor_eventos>img,.contenedor_curiosidades>img{
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.contenedor_curiosidades{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #BFB304;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+ol{
+    margin-right: 25px;
+    margin-bottom: 40px;
+    margin-inline: 20px;
+}
+
+ol>li{
+    color: #202020;
+    font-size: 20px;
+}

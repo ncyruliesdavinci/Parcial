@@ -1,0 +1,94 @@
+.contenedor_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 40px;
+}
+
+.contenedor_reparto{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.contenedor_reparto_linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contenedor_reparto_ind{
+    width: 250px;
+    height: 300px;
+    background-color: #BFB304;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nombres_reparto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombres_reparto_actor{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    color: beige;
+    margin-bottom: 0;
+}
+
+.nombres_reparto_personaje{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #d90d1ed8;
+    margin-top: 0;
+}
+
+.foto_reparto>img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contenedor_informacion_personajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    width: 800px;
+    background-color: #213D40;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.contenedor_informacion_personajes>h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 40px;
+    justify-self: center;
+}
+
+.contenedor_informacion_personajes>h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgoldenrod;
+    font-size: 18px;
+}
+
+.contenedor_informacion_personajes>p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: beige;
+    margin-inline: 30px;
+}

@@ -1,0 +1,70 @@
+h1{
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 40px;
+    justify-self: center;
+    
+}
+
+#banner_temporadas{
+    display: flex;
+    width: 80%;
+    justify-self: center;
+}
+
+.contenedor_padre{
+    width: 90%;
+    justify-self: center;
+}
+
+.contenedor_linea{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 1400px;
+    margin-top: 60px;
+}
+
+.temporada{
+    width: 600px;
+    height: 300px;
+    background-color: #BFB304;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img_temporada>img{
+    width: 300px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.puntaje_episodio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.puntaje_episodio>h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#puntaje_temporadas{
+    width: 800px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+ul{
+    margin-right: 10px;
+}

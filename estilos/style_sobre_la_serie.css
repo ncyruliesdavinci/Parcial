@@ -1,0 +1,11 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-size: 40px;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.contenedor_padre_secciones{
+    margin-bottom: 50px;
+}
