@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color:lightslategrey;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
+
+a{
+    align-self: center;
+    margin: 20px 0 40px 0;
+    color: white;
+    font-style: inherit;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: gold;
+}
+
+img{
+    align-self: center;
+    max-height: 700px;
+    max-width: 1000px;
+}
