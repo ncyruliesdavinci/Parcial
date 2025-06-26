@@ -9,3 +9,21 @@ h1{
 .contenedor_padre_secciones{
     margin-bottom: 50px;
 }
+
+.contenedor_audio{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    background-color: #213D40;
+    padding: 40px 100px;
+    border-radius: 20px;
+}
+
+.contenedor_audio > h2{
+    display: flex;
+    justify-content: center;
+    color: #BFB304;
+    font-size: 30px;
+}
