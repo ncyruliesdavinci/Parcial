@@ -76,3 +76,21 @@ h1{
 ul{
     margin-right: 10px;
 }
+
+/* Animación */
+
+.img_temporada > img,
+.informacion_temporada > h2{
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.img_temporada > img:hover,
+.informacion_temporada > h2:hover{
+    transform: scale(1.02);
+    filter: brightness(1.1);
+}
+
+#puntaje_temporadas:hover{
+    transition: 0.3s;
+    scale: 130%;
+}
