@@ -299,6 +299,22 @@ footer{
         display: none;
     }
 
+
+    /* TEXTO PORTADA */
+    #contenedor_titulo_portada {
+        position: static;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #titulo {
+        font-size: 8vw;
+    }
+
+    #contenedor_titulo_portada > p {
+        font-size: 4vw;
+    }
+
     /* SECCIONES */
     .secciones_informativas {
         width: 90%;
@@ -318,6 +334,18 @@ footer{
         width: 100%;
     }
 
+    .secciones_informativas_izq > img,
+    .secciones_informativas_der > img {
+        width: 100%;
+        height: auto;
+    }
+
+     .sub_secciones_informativas_izq,
+    .sub_secciones_informativas_der {
+        width: 100%;
+        padding: 20px;
+    }
+
     /* TRAILER */
     
     .trailer > iframe {
@@ -329,7 +357,6 @@ footer{
     .cont_footer {
         flex-direction: column;
         height: auto;
-        gap: 10px;
         padding: 10px;
     }
     
