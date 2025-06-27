@@ -6,7 +6,7 @@
 
 .contenedor_contacto>h1{
     margin-top: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
 }
@@ -17,7 +17,7 @@
 }
 
 .contenedor_contacto>p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VCR_OSD';
     color: beige;
     font-size: 20px;
 }
@@ -37,6 +37,7 @@
 .contenedor_formulario>form>label{
     margin: 10px;
     color: gold;
+    font-family: 'VCR_OSD';
 }
 
 .contenedor_formulario>form>input , .contenedor_formulario>form>textarea{
@@ -44,6 +45,7 @@
     height: 30px;
     border-radius: 5%;
     background-color: beige;
+    font-family: 'VCR_OSD';
 }
 
 #boton_enviar{

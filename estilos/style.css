@@ -47,7 +47,7 @@ nav>ul>li{
 nav>ul>li>a{
     color: gold;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VCR_OSD';
     font-size: 20px;
 }
 
@@ -112,7 +112,7 @@ nav>ul>li>a:hover{
 }
 
 .secciones_informativas>p{
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;*/
     color: beige;
     font-size: 20px;
     margin: 25px;
@@ -154,8 +154,9 @@ nav>ul>li>a:hover{
 }
 
 .sub_secciones_informativas_izq>h2{
-    color: #202020;
+    color: #d90d1ed8;
     font-size: 40px;
+    font-family: 'DancingScript-Regular';
 }
 
 .sub_secciones_informativas_izq>p{
@@ -188,8 +189,9 @@ nav>ul>li>a:hover{
 }
 
 .sub_secciones_informativas_der>h2{
-    color: #202020;
+    color: #d90d1ed8;
     font-size: 40px;
+    font-family: 'DancingScript-Regular';
 }
 
 .sub_secciones_informativas_der>p{
@@ -229,6 +231,7 @@ nav>ul>li>a:hover{
     color: beige;
     font-size: 50px;
     margin-top: -20px;
+    font-family: 'DancingScript-Regular';
 }
 
 .trailer>iframe{
@@ -277,7 +280,7 @@ footer{
 
 .cont_footer_texto>p{
     color: gold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VCR_OSD';
     font-size: 18px;
     margin-top: 0;
 }

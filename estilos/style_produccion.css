@@ -1,6 +1,6 @@
 h1{
     margin-top: 70px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
     justify-self: center;
@@ -16,6 +16,14 @@ h1{
 .contenedor_padre{
     width: 90%;
     justify-self: center;
+}
+
+.informacion_temporada>h2{
+    font-family: 'DancingScript-Regular';
+}
+
+.informacion_temporada>ul>li{
+    font-family: 'VCR_OSD';
 }
 
 .contenedor_linea{
@@ -52,7 +60,7 @@ h1{
 }
 
 .puntaje_episodio>h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 25px;
     margin-bottom: 40px;

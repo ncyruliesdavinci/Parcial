@@ -1,9 +1,13 @@
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
     justify-self: center;
     margin-top: 50px;
+}
+
+.sub_secciones_informativas_der>ul>li{
+    font-family: 'VCR_OSD';
 }
 
 .contenedor_padre_secciones{
@@ -26,4 +30,5 @@ h1{
     justify-content: center;
     color: #BFB304;
     font-size: 30px;
+    font-family: 'DancingScript-Regular';
 }

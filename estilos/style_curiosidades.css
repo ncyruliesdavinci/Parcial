@@ -6,13 +6,13 @@ main{
 
 .contenedor_titulo>h1{
     justify-self: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
 }
 
 h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: #d90d1ed8;
     font-size: 30px;
     margin-top: 40px;
@@ -54,4 +54,5 @@ ol{
 ol>li{
     color: #202020;
     font-size: 20px;
+    font-family: 'VCR_OSD';
 }

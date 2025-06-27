@@ -6,7 +6,7 @@
 }
 
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
 }
@@ -43,14 +43,14 @@ h1{
 }
 
 .nombres_reparto_actor{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 21px;
+    font-family: 'DancingScript-Regular';
+    font-size: 22px;
     color: beige;
     margin-bottom: 0;
 }
 
 .nombres_reparto_personaje{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VCR_OSD';
     font-size: 18px;
     color: #d90d1ed8;
     margin-top: 0;
@@ -74,20 +74,20 @@ h1{
 }
 
 .contenedor_informacion_personajes>h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
     justify-self: center;
 }
 
 .contenedor_informacion_personajes>h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'DancingScript-Regular';
     color: darkgoldenrod;
     font-size: 18px;
 }
 
 .contenedor_informacion_personajes>p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VCR_OSD';
     font-size: 18px;
     color: beige;
     margin-inline: 30px;
