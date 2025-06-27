@@ -36,15 +36,15 @@
         </div>
         
         <div class="contenedor_formulario">
-            <form action="">
+            <form action="envio.html" method="get">
                 <label for="name">Nombre</label>
-                <input type="text" id="name" placeholder="Ingresar tu nombre">
+                <input type="text" id="name" placeholder="Ingresar tu nombre" required>
                 <label for="subname">Apellido</label>
-                <input type="text" id="subname" placeholder="Ingresa tu apellido">
+                <input type="text" id="subname" placeholder="Ingresa tu apellido" required>
                 <label for="email">Email</label>
-                <input type="mail" name="email" id="email" placeholder="Ingresa un mail">
+                <input type="email" name="email" id="email" placeholder="Ingresa un mail" required>
                 <label for="msg">Mensaje</label>
-                <textarea name="msg" id="msg" placeholder="Ingresa tu mensaje"></textarea>
+                <textarea name="msg" id="msg" placeholder="Ingresa tu mensaje" required></textarea>
                 <input type="submit" value="Enviar" id="boton_enviar">
             </form>
         </div>
