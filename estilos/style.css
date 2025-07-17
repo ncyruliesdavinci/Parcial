@@ -215,6 +215,44 @@ nav>ul>li>a:hover{
     font-size: 20px; 
 }
 
+/* ANIMACIONES */
+
+/* animacion de imagenes*/
+
+.secciones_informativas_izq > img,
+.secciones_informativas_der > img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.secciones_informativas_izq > img:hover,
+.secciones_informativas_der > img:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+}
+
+/* animacion de secciones rojas*/ 
+
+.secciones_informativas {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.secciones_informativas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* aniamcion del logo automatica, cada 5 seg rota y escala */
+#logo {
+    animation: logoAnimar 5s infinite ease-in-out;
+}
+
+@keyframes logoAnimar {
+    0%   { transform: rotate(0deg) scale(1); }
+    5%   { transform: rotate(-5deg) scale(1.05); }
+    10%  { transform: rotate(0deg) scale(1); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+
 
 
 /* TRAILER */
