@@ -23,6 +23,12 @@ p{
 
 #logo{
     height: 60px;
+    margin-left: 40px;
+}
+
+#contenedor_nav{
+    display: flex;
+    justify-content: space-between;
 }
 
 header{
@@ -287,6 +293,83 @@ footer{
 
 
 
+
+
+
+/* Menu hamburguesa responsive */
+
+#panelhamburguesa {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -1000px;
+    transition: right 0.5s ease;
+    background-color: #202020;
+    z-index: 998;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#panelhamburguesa a {
+    color: gold;
+    font-family: 'VCR_OSD';
+    font-size: 1.2rem;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+#panelhamburguesa a:hover {
+    color: darkgoldenrod;
+}
+
+#panelhamburguesa:target {
+    right: 0;
+}
+
+/* Tapado para efecto oscuro */
+#tapado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    pointer-events: none;
+    transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+
+#panelhamburguesa:target ~ #tapado {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: auto;
+}
+
+/* Iconos menu hamburguesa */
+#abrir, #cerrar {
+    display: inline-block;
+    padding: 1rem;
+}
+
+#cerrar {
+    display: none;
+}
+
+#panelhamburguesa:target ~ header nav #abrir {
+    display: none;
+}
+
+#panelhamburguesa:target ~ header nav #cerrar {
+    display: inline-block;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
 
     header {
@@ -360,4 +443,54 @@ footer{
         padding: 10px;
     }
     
+}
+
+
+/* Menú en celular */
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    header > div{
+        display: none;
+    }
+
+    header > nav > ul {
+        display: none;
+    }
+
+    #contenedor_nav{
+        justify-content: end;
+    }
+ 
+
+    nav > ul {
+        display: none;
+        flex-direction: column;
+        background-color: #202020;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #contenedor_logo{
+        display: none;
+    }
+
+    nav > ul > li {
+        margin: 10px 0;
+    }
+
+    #menu-toggle:checked + #menu-icon + nav > ul {
+        display: flex;
+    }
+}
+
+
+/* Para que no desborde */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
