@@ -259,7 +259,7 @@ nav>ul>li>a:hover{
 
 .trailer{
     width: 90%;
-    height: 900px;
+    height: 600px;
     background-color: #213D40;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -279,8 +279,8 @@ nav>ul>li>a:hover{
 }
 
 .trailer>iframe{
-    width: 1120px;
-    height: 630px;
+    width: 90%;
+    height: 70%;
 }
 
 
@@ -433,7 +433,7 @@ footer{
     }
 
     #contenedor_titulo_portada > p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     /* SECCIONES */
@@ -445,7 +445,7 @@ footer{
     }
 
     .secciones_informativas > p {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .secciones_informativas_izq,
@@ -463,15 +463,30 @@ footer{
 
      .sub_secciones_informativas_izq,
     .sub_secciones_informativas_der {
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
 
+    .sub_secciones_informativas_izq>p,
+    .sub_secciones_informativas_der>p{
+        padding-inline: 20px ;
+        text-align: center;
+    }
+
+    .sub_secciones_informativas_izq>h2,
+    .sub_secciones_informativas_der>h2{
+        text-align: center;
+    }
+
     /* TRAILER */
+
+    .trailer{
+        height: 70vh;
+    }
     
     .trailer > iframe {
-        width: 90vw;
-        height: 50vw;
+        width: 90%;
+        height: 60%;
     }
 
     /* FOOTER */
