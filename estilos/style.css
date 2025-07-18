@@ -334,7 +334,7 @@ footer{
 
 
 
-/* Menu hamburguesa responsive */
+/* Menu hamburguesa  */
 
 #panelhamburguesa {
     height: 100vh;
@@ -367,7 +367,7 @@ footer{
     right: 0;
 }
 
-/* Tapado para efecto oscuro */
+
 #tapado {
     position: fixed;
     top: 0;
@@ -387,7 +387,7 @@ footer{
     pointer-events: auto;
 }
 
-/* Iconos menu hamburguesa */
+
 #abrir, #cerrar {
     display: inline-block;
     padding: 1rem;
@@ -481,11 +481,9 @@ footer{
         padding: 10px;
     }
     
-}
 
+    /* Menú en celular */
 
-/* Menú en celular */
-@media screen and (max-width: 768px) {
     #menu-icon {
         display: block;
     }
