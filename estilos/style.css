@@ -536,6 +536,20 @@ footer{
     #menu-toggle:checked + #menu-icon + nav > ul {
         display: flex;
     }
+
+    /* Animacion titulo */
+
+    
+    h1 {
+        animation: tituloAnimar 5s infinite ease-in-out;
+    }
+
+    @keyframes tituloAnimar {
+        0%   { transform: rotate(0deg) scale(1); }
+        10%   { transform: rotate(-3deg) scale(1.05); }
+        20%  { transform: rotate(0deg) scale(1); }
+        100% { transform: rotate(0deg) scale(1); }
+    }
 }
 
 
