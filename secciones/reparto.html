@@ -9,21 +9,38 @@
     <link rel="icon" href="../imagenes/logos/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div>
+    <section id="contenedor_nav">
+        <div id="panelhamburguesa">
+            <a href="../index.html" class="burger texto">Home</a>
+            <a href="sobreLaSerie.html" class="burger texto">Sobre la Serie</a>
+            <a href="reparto.html" class="burger texto">Reparto</a>
+            <a href="produccion.html" class="burger texto">Producción</a>
+            <a href="curisosidades.html" class="burger texto">Curiosidades</a>
+            <a href="contacto.html" class="burger texto">Contacto</a>
+        </div>
+
+        <div id="tapado"></div>
+
+        <div id="contenedor_logo">
             <a href="../index.html"><img src="../imagenes/logos/logo.png" alt="logo" id="logo"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../secciones/sobreLaSerie.html">Sobre la Serie</a></li>
-                <li><a href="../secciones/reparto.html">Reparto</a></li>
-                <li><a href="../secciones/produccion.html">Produccion</a></li>
-                <li><a href="../secciones/curisosidades.html">Curiosidades</a></li>
-                <li><a href="../secciones/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>        
-    </header>
+
+        <header>
+            <nav>
+                <a href="#panelhamburguesa" id="abrir">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="gold">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </a>
+                <a href="#" id="cerrar">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="gold">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a>
+            </nav>
+        </header>
+    </section>
 
 
     <main>
