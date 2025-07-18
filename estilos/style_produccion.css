@@ -103,7 +103,7 @@ ul{
     }
 
     h1{
-        margin: 0px 20px;
+        margin: 0px 20px 40px;
         text-align: center;
     }
 
@@ -145,5 +145,9 @@ ul{
 
     #puntaje_temporadas{
         width: 90%;
+    }
+
+    .contenedor_linea{
+        margin-top: 0;
     }
 }
