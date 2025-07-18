@@ -56,3 +56,19 @@ ol>li{
     font-size: 20px;
     font-family: 'VCR_OSD';
 }
+
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        margin-top: 0;
+    }
+
+    .contenedor_eventos, .contenedor_curiosidades{
+        width: 100vw;
+    }
+
+    .contenedor_eventos>img, .contenedor_curiosidades>img{
+        width: 90%;
+    }
+}

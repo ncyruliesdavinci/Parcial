@@ -5,7 +5,7 @@
 }
 
 .contenedor_contacto>h1{
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: 'DancingScript-Regular';
     color: beige;
     font-size: 40px;
@@ -63,4 +63,16 @@
 
 .tarjeta>img{
     width: 250px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contenedor_contacto>h1{
+        margin-top: 0;
+    }
+
+    p{
+        margin: 20px 20px;
+    }
 }

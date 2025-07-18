@@ -91,4 +91,49 @@ h1{
     font-size: 18px;
     color: beige;
     margin-inline: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .contenedor_reparto_linea{
+        justify-content: center;
+    }
+    .contenedor_reparto_ind{
+        margin-inline: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        margin-top: 0;
+    }
+
+    .contenedor_titulo{
+        height: 100px;
+    }
+
+    .contenedor_reparto_linea{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor_informacion_personajes{
+        width: 100vw;
+    }
+
+    .contenedor_informacion_personajes>h2{
+        font-size: 50px;
+    }
+
+    .contenedor_informacion_personajes>h3{
+        font-size: 32px;
+    }
+
+    .contenedor_informacion_personajes>p{
+        font-size: 26px;
+    }
 }
