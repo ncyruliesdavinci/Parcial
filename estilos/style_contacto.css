@@ -62,7 +62,7 @@
 }
 
 .tarjeta>img{
-    width: 250px;
+    width: 350px;
     margin-bottom: 40px;
 }
 
@@ -74,5 +74,21 @@
 
     p{
         margin: 20px 20px;
+        text-align: center;
     }
+
+    .tarjeta>img{
+        width: 85%;
+        display: flex;
+        justify-self: center;
+    }
+
+    .contenedor_formulario{
+        width: 90%;
+    }
+
+    .contenedor_formulario>form>input, .contenedor_formulario>form>textarea{
+        width: 90%;
+    }
+
 }
